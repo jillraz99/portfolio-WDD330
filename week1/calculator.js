@@ -22,3 +22,9 @@
       this.b = +prompt('enter second number', 0);
     }
   }
+  calculator.read();
+  alert(calculator.sum());
+  alert(calculator.mul());
+  alert(calculator.sub());
+  alert(calculator.div());
+
